@@ -156,5 +156,9 @@ MIT License. You may reuse this code with attribution.
 ## Acknowledgments
 
 - Original TimeGAN paper: *Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar (NeurIPS 2019)*  
-- Data from UCI / Kaggle  
+- Data from Kaggle
+- The project was developed and successfully executed by:
+- **Dua Eman**
+- **Rabia Ejaz**
+- **Anila Khan**
 - Project completed as part of **BDA CEP Coursework (2025)**  
