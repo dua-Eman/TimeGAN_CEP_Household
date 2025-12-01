@@ -6,7 +6,7 @@ The goal is to train **TimeGAN** on real household electricity data and evaluate
 
 ---
 
-## 📝 Project Overview
+## Project Overview
 
 This project demonstrates:
 
@@ -22,7 +22,7 @@ We therefore used a **small subset (5000 rows train, 1000 rows test)** of the da
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 .
 ├── TimeGAN_Household_Main.ipynb # Main Colab notebook
