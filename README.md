@@ -161,4 +161,4 @@ MIT License. You may reuse this code with attribution.
 - **Dua Eman**
 - **Rabia Ejaz**
 - **Anila Khan**
-- Project completed as part of **BDA CEP Coursework (2025)**  
+- Project completed as part of **BDA CEP (2025)**  
