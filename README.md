@@ -21,32 +21,6 @@ All experiments were done in **Google Colab (CPU-only)** with strict runtime and
 We therefore used a **small subset (5000 rows train, 1000 rows test)** of the dataset.
 
 ---
-
-## Repository Structure
-
-.
-├── TimeGAN_Household_Main.ipynb # Main Colab notebook
-├── raw_data/
-│ ├── household_train_5000.csv
-│ ├── household_test_1000.csv
-│ ├── synthetic_household.npy
-│
-├── figures/
-│ ├── overlay_global_active_power_seq0.png
-│ ├── hist_global_active_power_real_vs_synth.png
-│ ├── acf_global_active_power.png
-│ ├── pacf_global_active_power.png
-│ ├── pca_real_vs_synthetic.png
-│ ├── tsne_real_vs_synthetic.png
-│ ├── decomposition_real_global_active_power.png
-│ ├── decomposition_synthetic_global_active_power.png
-│ ├── changepoints_real_global_active_power.png
-│ ├── changepoints_synthetic_global_active_power.png
-│ ├── lagged_xcorr_global_active_power_voltage.png
-│ └── ... (more analytic figures)
-│
-└── README.md
-
 ## Dataset
 
 We use the **Household Electric Power Consumption** dataset  
