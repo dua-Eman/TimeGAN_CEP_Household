@@ -47,12 +47,7 @@ We therefore used a **small subset (5000 rows train, 1000 rows test)** of the da
 │
 └── README.md
 
-yaml
-Copy code
-
----
-
-## 📊 Dataset
+## Dataset
 
 We use the **Household Electric Power Consumption** dataset  
 (https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set)
@@ -73,7 +68,7 @@ Preprocessing steps:
 
 ---
 
-## ⚙️ TimeGAN Configuration
+## TimeGAN Configuration
 
 - Model: **GRU-based TimeGAN**
 - Sequence length: **24**
@@ -88,7 +83,7 @@ Synthetic sequences were generated from the trained TimeGAN generator + recovery
 
 ---
 
-## 📈 Visualizations & Temporal Diagnostics
+## Visualizations & Temporal Diagnostics
 
 The `figures/` folder contains all analysis plots:
 
@@ -105,7 +100,7 @@ These reveal that TimeGAN learned **short-term fluctuations**, but **did not lea
 
 ---
 
-## 📐 Quantitative Metrics
+## Quantitative Metrics
 
 **DTW (Dynamic Time Warping):**
 Mean DTW = 46.02
@@ -132,7 +127,7 @@ Copy code
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 
 - TimeGAN can generate sequences with correct dimensions and rough local variation.  
 - It does **not** capture the strong daily seasonality in electricity consumption when trained on a small dataset with limited epochs.  
@@ -144,7 +139,7 @@ TimeGAN is sensitive to dataset size and training duration. Larger datasets and 
 
 ---
 
-## 📌 How to Reproduce
+## How to Reproduce
 
 1. Open the notebook:  
    `TimeGAN_Household_Main.ipynb`  
@@ -153,12 +148,12 @@ TimeGAN is sensitive to dataset size and training duration. Larger datasets and 
 
 ---
 
-## 📄 License
+## License
 MIT License. You may reuse this code with attribution.
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 - Original TimeGAN paper: *Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar (NeurIPS 2019)*  
 - Data from UCI / Kaggle  
